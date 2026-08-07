@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Resume Analyzer Pro</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+<header>
+
+<h1>
+<i class="fa-solid fa-file-lines"></i>
+
+Resume Analyzer Pro
+</h1>
+
+<p>
+
+Upload your resume and receive an instant analysis.
+
+</p>
+
+</header>
+
+<div class="upload-box">
+
+<label class="upload-btn">
+
+<i class="fa-solid fa-upload"></i>
+
+Choose Resume
+
+<input
+type="file"
+id="resumeFile"
+accept=".pdf,.txt"
+hidden>
+
+</label>
+
+<p id="fileName">
+
+No file selected
+
+</p>
+
+<button id="analyzeBtn">
+
+<i class="fa-solid fa-magnifying-glass-chart"></i>
+
+Analyze Resume
+
+</button>
+
+</div>
+
+<div class="dashboard">
+
+<div class="left-panel">
+
+<div class="card">
+
+<h2>
+
+<i class="fa-solid fa-file-pdf"></i>
+
+Resume Preview
+
+</h2>
+
+<div id="preview">
+
+<p>
+
+Your resume preview will appear here.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="right-panel">
+
+<div class="card score-card">
+
+<h2>
+
+Resume Score
+
+</h2>
+
+<div class="circle">
+
+<div id="scoreValue">
+
+0%
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>
+
+Analysis
+
+</h2>
+
+<div id="analysis">
+
+Waiting...
+
+</div>
+
+</div>
+
+<div class="card">
+
+<button id="downloadBtn">
+
+<i class="fa-solid fa-download"></i>
+
+Download PDF Report
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+Made with ❤️ using HTML, CSS & JavaScript
+
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

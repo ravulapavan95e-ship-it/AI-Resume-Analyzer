@@ -1,0 +1,15 @@
+John Doe
+
+Email: john@example.com
+
+Skills:
+HTML
+CSS
+JavaScript
+
+Education:
+B.Tech Computer Science
+
+Projects:
+Weather App
+Portfolio Website
