@@ -2,7 +2,11 @@
 
 > 🚀 Analyze your resume. Improve it. Get hired.
 
-Resume Analyzer Pro is a professional, browser-based resume analysis tool that evaluates a resume using a strict **100-point scoring system**.
+## 🌐 Live Website
+
+👉 **[Open Resume Analyzer Pro](https://ravulapavan95e-ship-it.github.io/AI-Resume-Analyzer/)**
+
+Resume Analyzer Pro is a professional resume analysis tool that evaluates a resume using a strict **100-point scoring system**.
 
 Upload a PDF or TXT resume, preview its content, analyze important resume sections, identify missing information, receive improvement suggestions, and download a professional PDF report.
 
@@ -23,17 +27,17 @@ Upload a PDF or TXT resume, preview its content, analyze important resume sectio
 - 🔗 GitHub, LinkedIn and portfolio detection
 - 🎯 ATS keyword evaluation
 - 📐 Resume quality and formatting evaluation
-- 💡 Personalized improvement suggestions
+- 💡 Improvement suggestions
 - 📄 Professional PDF report generation
-- 📱 Responsive design for desktop and mobile
+- 📱 Responsive desktop and mobile design
 - 🎨 Modern 3D / glass-style interface
 - 📑 Floating resume background design
 
 ---
 
-## 🧮 Strict Scoring System
+## 🧮 Strict 100-Point Scoring System
 
-Resume Analyzer Pro uses a **100-point scoring system**.
+Resume Analyzer Pro uses a strict **100-point scoring model**.
 
 | Category | Points |
 |---|---:|
@@ -49,7 +53,7 @@ Resume Analyzer Pro uses a **100-point scoring system**.
 | 📐 Quality & Formatting | 10 |
 | **🏅 Total** | **100** |
 
-The scoring system is intentionally strict. A resume should receive a high score only when the information is present, relevant, detailed and professionally presented.
+A high score should be difficult to achieve. The system is designed to identify weaknesses instead of giving every resume an unnecessarily high score.
 
 ---
 
@@ -63,42 +67,72 @@ The scoring system is intentionally strict. A resume should receive a high score
 | 🟢 75–89 | Strong |
 | 🔵 90–100 | Exceptional |
 
-A score of **90+ should be difficult to achieve**. The goal is to provide realistic feedback instead of giving every resume an unnecessarily high score.
+---
+
+## 🔍 What the Analyzer Checks
+
+The analyzer evaluates important areas of a resume, including:
+
+- 📇 Contact information
+- 📝 Professional summary
+- 💼 Work experience
+- 💻 Technical skills
+- 🎓 Education
+- 🚀 Projects
+- 🏆 Certifications
+- 🔗 Professional links
+- 🎯 ATS readiness
+- 📐 Resume structure and formatting
+
+If important information is missing, the analyzer can identify the weakness and provide an improvement suggestion.
 
 ---
 
-## 🖥️ How It Works
+## 📄 PDF Report
 
-### 1️⃣ Upload
+After analysis, users can generate a downloadable PDF report containing:
 
-Choose your resume in PDF or TXT format.
+- 📊 Overall resume score
+- 📈 Resume statistics
+- 💻 Detected skills
+- 🔍 Resume analysis
+- ⚠️ Missing information
+- 💡 Improvement suggestions
 
-### 2️⃣ Analyze
+The goal is to provide a clean and professional report that can be reviewed later.
+
+---
+
+## 🖥️ How to Use
+
+### 1️⃣ Open the website
+
+Visit:
+
+👉 https://ravulapavan95e-ship-it.github.io/AI-Resume-Analyzer/
+
+### 2️⃣ Upload your resume
+
+Click **Choose Resume** and select a PDF or TXT resume.
+
+### 3️⃣ Analyze
 
 Click **Analyze Resume**.
 
-### 3️⃣ Review
+### 4️⃣ Review your results
 
-The application evaluates:
+Check your:
 
-- Contact information
-- Summary
-- Education
-- Skills
-- Experience
-- Projects
-- Certifications
-- Online profiles
-- ATS readiness
-- Formatting and quality
-
-### 4️⃣ Improve
-
-Review the detected weaknesses and recommendations.
+- Resume score
+- Resume preview
+- Resume analysis
+- Detected skills
+- Missing sections
+- Suggestions
 
 ### 5️⃣ Download
 
-Download your complete **PDF Resume Analysis Report**.
+Click **Download PDF Report** to generate your report.
 
 ---
 
@@ -123,10 +157,9 @@ Used to generate downloadable PDF analysis reports.
 ## 📁 Project Structure
 
 ```text
-AI Resume Analyzer Project/
+AI-Resume-Analyzer/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
